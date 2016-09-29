@@ -1,0 +1,17 @@
+//save as Asc.java
+// compile javac Asc.java
+class Asc {
+	public static void main (string a []){
+		// variables
+		int i; //i is a counter
+		char c; // c is a charater
+		// print some text
+		System.out.println("integer\tcharacter");
+		
+		//for loop
+		for (i = 32; i < 256; i++){
+			c = (char)i;
+			system.out.print(i+"='=c+" ");
+			if(i % 10 ==0){System.out.out.println();}
+		}
+	}
